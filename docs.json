@@ -1,0 +1,116 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Breeze iOS",
+  "theme": "almond",
+  "colors": {
+    "primary": "#f78804",
+    "light": "#95440c",
+    "dark": "#040404"
+  },
+  "favicon": "/favicon.svg",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "primary": {
+      "type": "github",
+      "href": "https://github.com/japsinghx/breeze-ios"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/japsinghx/breeze-ios"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "installation",
+              "requirements"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/dashboard",
+              "features/air-quality",
+              "features/pollutants",
+              "features/pollen-tracking",
+              "features/climate-data",
+              "features/location-search"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "configuration/setup",
+              "configuration/api-keys",
+              "configuration/permissions"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Architecture",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "architecture/project-structure",
+              "architecture/design-patterns"
+            ]
+          },
+          {
+            "group": "Core Components",
+            "pages": [
+              "architecture/models",
+              "architecture/services",
+              "architecture/viewmodels",
+              "architecture/views"
+            ]
+          },
+          {
+            "group": "UI Components",
+            "pages": [
+              "components/aqi-card",
+              "components/pollutants-grid",
+              "components/pollen-view",
+              "components/climate-chart",
+              "components/search-view"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "External APIs",
+            "pages": [
+              "api/open-meteo-air-quality",
+              "api/open-meteo-geocoding",
+              "api/google-pollen",
+              "api/open-meteo-archive"
+            ]
+          },
+          {
+            "group": "Services",
+            "pages": [
+              "api/services/air-quality-service",
+              "api/services/geocoding-service",
+              "api/services/pollen-service",
+              "api/services/climate-service"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
